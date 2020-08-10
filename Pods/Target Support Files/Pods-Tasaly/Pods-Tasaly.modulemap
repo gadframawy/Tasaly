@@ -1,0 +1,6 @@
+framework module Pods_Tasaly {
+  umbrella header "Pods-Tasaly-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7EDA8AE5-07C1-45A8-90BF-0C0DDC6D11BB"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E763853-8A5A-4861-BD34-1D9D06D7646E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tasaly/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "getMovieList(query:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6E763853-8A5A-4861-BD34-1D9D06D7646E - 6f2772aa40a7af4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Tasaly.ViewController.getMovieList(completion: (Swift.Array&lt;Tasaly.Result&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Tasaly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/envy/Desktop/Development/Tasaly/Tasaly/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1263">
+               </Location>
+               <Location
+                  uuid = "6E763853-8A5A-4861-BD34-1D9D06D7646E - 6f2772aa40a7af4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Tasaly.ViewController.getMovieList(completion: (Swift.Array&lt;Tasaly.Result&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Tasaly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/envy/Desktop/Development/Tasaly/Tasaly/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1425">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B659EC06-5962-4E0F-A0CA-7CA519FAB6A1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tasaly/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B659EC06-5962-4E0F-A0CA-7CA519FAB6A1 - a3f0913f9088c7f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tasaly.AppDelegate.__deallocating_deinit"
+                  moduleName = "Tasaly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/envy/Desktop/Development/Tasaly/Tasaly/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "B659EC06-5962-4E0F-A0CA-7CA519FAB6A1 - f60f11e6c33bd25a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tasaly.AppDelegate.__allocating_init() -&gt; Tasaly.AppDelegate"
+                  moduleName = "Tasaly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/envy/Desktop/Development/Tasaly/Tasaly/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "B659EC06-5962-4E0F-A0CA-7CA519FAB6A1 - c45c92b890158ee2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tasaly.AppDelegate.init() -&gt; Tasaly.AppDelegate"
+                  moduleName = "Tasaly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/envy/Desktop/Development/Tasaly/Tasaly/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "93">
+               </Location>
+               <Location
+                  uuid = "B659EC06-5962-4E0F-A0CA-7CA519FAB6A1 - 3c3b8ca09cf45d66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Tasaly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/envy/Desktop/Development/Tasaly/Tasaly/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "350335CA-C1F1-4B2D-843F-6D38C5DB7C0B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tasaly/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

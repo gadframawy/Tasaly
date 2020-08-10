@@ -3,19 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F6D5F4BCD460193C45BFF12 /* Pods_Tasaly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ACA6D79A1F3AA7F4CEE4C0 /* Pods_Tasaly.framework */; };
 		FD1744822464ECDD0035D1E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1744812464ECDD0035D1E8 /* AppDelegate.swift */; };
 		FD1744842464ECDD0035D1E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1744832464ECDD0035D1E8 /* SceneDelegate.swift */; };
 		FD1744862464ECDD0035D1E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1744852464ECDD0035D1E8 /* ViewController.swift */; };
 		FD1744892464ECDD0035D1E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD1744872464ECDD0035D1E8 /* Main.storyboard */; };
 		FD17448B2464ECDE0035D1E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD17448A2464ECDE0035D1E8 /* Assets.xcassets */; };
 		FD17448E2464ECDE0035D1E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD17448C2464ECDE0035D1E8 /* LaunchScreen.storyboard */; };
+		FD33463F24676E5C00B2A519 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD33463E24676E5C00B2A519 /* DetailsViewController.swift */; };
+		FD80F6572465DA6B0082CB04 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD80F6562465DA6B0082CB04 /* MyCell.swift */; };
+		FD80F6592465DC8A0082CB04 /* MovieResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD80F6582465DC8A0082CB04 /* MovieResults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00ACA6D79A1F3AA7F4CEE4C0 /* Pods_Tasaly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tasaly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		216C4B23B4EE0E442C9E6FF3 /* Pods-Tasaly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tasaly.debug.xcconfig"; path = "Target Support Files/Pods-Tasaly/Pods-Tasaly.debug.xcconfig"; sourceTree = "<group>"; };
+		A2C4AC66F611593433A2E0F8 /* Pods-Tasaly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tasaly.release.xcconfig"; path = "Target Support Files/Pods-Tasaly/Pods-Tasaly.release.xcconfig"; sourceTree = "<group>"; };
 		FD17447E2464ECDD0035D1E8 /* Tasaly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasaly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1744812464ECDD0035D1E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD1744832464ECDD0035D1E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		FD17448A2464ECDE0035D1E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD17448D2464ECDE0035D1E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD17448F2464ECDE0035D1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD33463E24676E5C00B2A519 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		FD80F6562465DA6B0082CB04 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		FD80F6582465DC8A0082CB04 /* MovieResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F6D5F4BCD460193C45BFF12 /* Pods_Tasaly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E8297FAAFE48C9CFCBACAE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				216C4B23B4EE0E442C9E6FF3 /* Pods-Tasaly.debug.xcconfig */,
+				A2C4AC66F611593433A2E0F8 /* Pods-Tasaly.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FD1744752464ECDD0035D1E8 = {
 			isa = PBXGroup;
 			children = (
 				FD1744802464ECDD0035D1E8 /* Tasaly */,
 				FD17447F2464ECDD0035D1E8 /* Products */,
+				1E8297FAAFE48C9CFCBACAE7 /* Pods */,
+				FF57C28C39F4E20C6105428A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +81,23 @@
 				FD1744812464ECDD0035D1E8 /* AppDelegate.swift */,
 				FD1744832464ECDD0035D1E8 /* SceneDelegate.swift */,
 				FD1744852464ECDD0035D1E8 /* ViewController.swift */,
+				FD33463E24676E5C00B2A519 /* DetailsViewController.swift */,
 				FD1744872464ECDD0035D1E8 /* Main.storyboard */,
+				FD80F6582465DC8A0082CB04 /* MovieResults.swift */,
+				FD80F6562465DA6B0082CB04 /* MyCell.swift */,
 				FD17448A2464ECDE0035D1E8 /* Assets.xcassets */,
 				FD17448C2464ECDE0035D1E8 /* LaunchScreen.storyboard */,
 				FD17448F2464ECDE0035D1E8 /* Info.plist */,
 			);
 			path = Tasaly;
+			sourceTree = "<group>";
+		};
+		FF57C28C39F4E20C6105428A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00ACA6D79A1F3AA7F4CEE4C0 /* Pods_Tasaly.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD1744922464ECDE0035D1E8 /* Build configuration list for PBXNativeTarget "Tasaly" */;
 			buildPhases = (
+				8C89CF8392A89025FCABF807 /* [CP] Check Pods Manifest.lock */,
 				FD17447A2464ECDD0035D1E8 /* Sources */,
 				FD17447B2464ECDD0035D1E8 /* Frameworks */,
 				FD17447C2464ECDD0035D1E8 /* Resources */,
+				B017261E7D0F9DB579B0C32B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +168,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8C89CF8392A89025FCABF807 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tasaly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B017261E7D0F9DB579B0C32B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tasaly/Pods-Tasaly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tasaly/Pods-Tasaly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tasaly/Pods-Tasaly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FD17447A2464ECDD0035D1E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FD1744862464ECDD0035D1E8 /* ViewController.swift in Sources */,
+				FD80F6572465DA6B0082CB04 /* MyCell.swift in Sources */,
+				FD80F6592465DC8A0082CB04 /* MovieResults.swift in Sources */,
 				FD1744822464ECDD0035D1E8 /* AppDelegate.swift in Sources */,
+				FD33463F24676E5C00B2A519 /* DetailsViewController.swift in Sources */,
 				FD1744842464ECDD0035D1E8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +362,7 @@
 		};
 		FD1744932464ECDE0035D1E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 216C4B23B4EE0E442C9E6FF3 /* Pods-Tasaly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +381,7 @@
 		};
 		FD1744942464ECDE0035D1E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2C4AC66F611593433A2E0F8 /* Pods-Tasaly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
